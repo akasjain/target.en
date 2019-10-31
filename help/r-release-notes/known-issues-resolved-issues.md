@@ -21,6 +21,10 @@ Information about known issues for this release of Target. Also includes informa
 
 The following sections list the known issues for [!DNL Target]:
 
+### Extra spaces being added to page delivery settings {#pagedelivery}
+
+When you add template rule such as URL contains (/checkout, /cart) in [Page Delivery](https://docs.adobe.com/content/help/en/target/using/activities/experience-targeting/create-targeting/xt-activity-url.html) extra spaces get prefixed to your rules. This is a cosmetic bug with no issues in audience definition creation and offer delivery. (TGT-35916)
+
 ### Activity QA preview links {#preview}
 
 [Activity QA preview](/help/c-activities/c-activity-qa/activity-qa.md) links for saved activities might not load if there are too many saved activities in your account. Re-trying the preview links should work. To prevent this from continuing to happen, archive saved activities that are no longer actively used. (TNT-32697)
